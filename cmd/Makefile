@@ -4,4 +4,4 @@ build:
 	cd ../; make build;
 
 run:
-	./device-virtual -cp=consul.http://localhost:8500 -registry
+	cd ../bin && ./launch.sh
