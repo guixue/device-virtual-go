@@ -27,4 +27,4 @@ prime/
 stage/
 parts/
 squashfs-root/
-
+tmp/

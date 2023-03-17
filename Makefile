@@ -16,6 +16,9 @@ GOFLAGS=-ldflags "-X github.com/edgexfoundry/device-virtual-go.Version=$(VERSION
 
 build: $(MICROSERVICES)
 
+run:
+	cd bin && ./launch.sh
+
 build-nats:
 	make -e ADD_BUILD_TAGS=include_nats_messaging build
 
